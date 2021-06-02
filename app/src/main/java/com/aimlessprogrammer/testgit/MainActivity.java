@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Working", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Working", Toast.LENGTH_SHORT).show();
             }
         });
     }
